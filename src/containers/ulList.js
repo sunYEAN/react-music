@@ -1,0 +1,1 @@
+import React from 'react';import PropTypes from 'prop-types'function SongList(props) {	console.log(props);}function RankList(props) {	console.log(props);}function PlayList(props) {	console.log(props);}function SingerList(props) {	console.log(props);};export default {	SongList,	RankList,	PlayList,	SingerList}

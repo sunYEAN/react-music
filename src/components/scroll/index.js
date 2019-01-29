@@ -1,0 +1,1 @@
+import React from 'react';import PropTypes from 'prop-types'export default class Scroll extends React.Component{	static prop}
