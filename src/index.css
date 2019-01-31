@@ -1,3 +1,4 @@
+@import "/css/my-swiper.css";
 body {
   margin: 0;
   padding: 0;
@@ -20,19 +21,22 @@ code {
   justify-content: space-between;
 }
 .topBar .icon{
-  width: 62px;
-  height: 62px;
+  width: 48px;
+  height: 48px;
   display: block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   /*background-color: #fff;*/
 }
 
 .topBar .icon-back{
-  background: url("/images/icon-back-white.png")no-repeat center center;
+  background-image: url("/images/icon-back-white.png");
 }
 .topBar .title{
   color: #fff;
 }
 .topBar .icon-more{
   transform: rotate(90deg);
-  background: url("/images/more.png")no-repeat center center;
+  background-image: url("/images/more.png");
 }
