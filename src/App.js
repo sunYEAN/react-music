@@ -7,7 +7,7 @@ class App extends Component {
   render() {
 		const options = {
 		  direction: 'horizontal',
-			interval: 300
+			interval: 300,
     };
 		return (
       <div className="App">
